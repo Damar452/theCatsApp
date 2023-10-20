@@ -1,0 +1,11 @@
+<ion-header mode="md">
+  <ion-toolbar color="primary">
+    <ion-title class="ion-text-center">Catbreeds</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <ng-container *ngFor="let cat of cats">
+    <app-view-cats [cat]="cat"></app-view-cats>
+  </ng-container>
+</ion-content>
