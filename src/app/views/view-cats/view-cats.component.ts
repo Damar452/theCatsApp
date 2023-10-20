@@ -9,8 +9,4 @@ import { Cat } from 'src/app/models/cat-interface';
 export class ViewCatsComponent {
 
   @Input() cat!: Cat;
-
-  getImage(code: string) {
-    return 
-  }
 }
